@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 60px auto;
+    width: 600px;
+}
+.container .addUser{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 1px solid lime;
+}
+.container .table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.container .table th{
+    background: cyan;
+    padding: 10px;
+}
+.container .table td{
+    padding: 6px;
+}
+.table-bordered{
+    border: 3px solid lime;
+}
+a{
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.btn{
+    font-size: 30px;
+}
+/*detail style css*/
+#form{
+    border: 3px solid lime;
+    padding: 10px
+}
+.form-group{
+    border-bottom: 1px dashed;
+}
+.form-group label{
+    width: 60px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.form-group input{
+    width: 200px;
+    line-height: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
